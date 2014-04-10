@@ -1,0 +1,119 @@
+/* center the container */
+.overlay {
+    background: url(http://www.freepeople.com/resources/_shared/images/layout/_fp/loading-icon-small.gif) no-repeat center center;
+    background-color: rgba(255, 255, 255, .8);
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#target {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    height: 1300px;
+    position: relative;
+}
+
+.topperIMG {
+    height: 98px;
+    width: 572px;
+    margin-left: 14px;
+}
+
+.introTXT {
+    margin-left: 14px;
+}
+
+p {
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    color: #3e3e3e;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    color: #3e3e3e;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.textarea {
+    height: 400px;
+    width: 572px;
+    border-image: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-75.png) !important;
+    border-image-slice: 1 !important;
+    border-image-width: 1 !important;
+    border-image-outset: 0 !important;
+    border-image-repeat: stretch !important;
+    border-radius: 0 !important;
+    background: #f7f7f7 !important;
+}
+
+.textarea:focus {
+    background: #fff !important;
+}
+
+.fpForm {
+    margin-left: 14px;
+}
+
+/* field labels */
+.fpForm .fpLabel {
+    text-transform: uppercase;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    color: #3e3e3e;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    line-height: 16px !important;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+/* submit button */
+.fpForm .fpSubmit {
+    margin: 20px auto !important;
+    padding: 1px !important;
+    width: 125px;
+    background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png) !important;
+}
+
+.fpSubmit input.fpSubmitButton {
+    box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+    font-size: .8em;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0;
+    padding: 12px !important;
+    background-color: #ff008a;
+    -webkit-transition: background-color .15s;
+    transition: background-color .15s;
+    border: solid 1px #fff;
+    width: 100%;
+    outline: none;
+}
+
+.fpSubmit input.fpSubmitButton:hover {
+    background-color: #eb007a;
+}
+

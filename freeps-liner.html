@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>FreePeople.com -- HTML In-Liner</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="target"></div>
+        <div class="overlay"></div>
+
+        <img class="topperIMG" src="//static.fpassets.com/content/emails/monthly-assets/2014/04-apr/april_header.jpg" />
+
+        <div class="introTXT">
+            <h1>HTML In-Liner</h1>
+
+            <p>
+                <strong>Instructions:</strong><br />
+                1. Paste your original HTML (including the styles within the &lt;head&gt;) in the first field below.<br />
+                2. Click the button below the form.<br />
+                3. Wait a sec while the magic happens.<br />
+                4. Retrieve your newly in-lined HTML from the second field below!<br />
+            </p>
+        </div>
+
+        <form class="fpForm">
+
+            <p class="fpLabel"><strong>Insert initial HTML here:</strong><br /></p>
+            <textarea class="textarea" name="original" id="original"></textarea><br /><br />
+
+            <p class="fpLabel"><strong>In-lined HTML appears here:</strong><br /></p>
+            <textarea class="textarea" name="inlined" id="inlined"></textarea>
+            <div class="fpSubmit">
+                <input class="fpSubmitButton" type="button" value="Make magic.">
+            </div>
+
+        </form>
+
+    </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="in-liner.js"></script>
+</body>
+</html>
