@@ -1,5 +1,6 @@
 # Free People In-Liner
 HTML/CSS: Mike-T-Mitchell (http://github.com/mike-t-mitchell)
+
 JS:       CLohr           (http://github.com/clohr) and Mike-T-Mitchell
            
 ### About
