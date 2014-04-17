@@ -1,7 +1,6 @@
 # Free People In-Liner
 ### Contributors
-JS: CLohr and Mike-T-Mitchell
-
+JS: CLohr and Mike-T-Mitchell  
 HTML/CSS: Mike-T-Mitchell 
 
 
