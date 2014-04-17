@@ -1,4 +1,9 @@
 /* center the container */
+body {
+    margin: 0;
+    padding: 0;
+}
+
 body p{
     font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif !important;
     font-size: 13px !important;
