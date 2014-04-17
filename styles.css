@@ -1,4 +1,19 @@
 /* center the container */
+body p{
+    font-family: "Avenir Next", Lato, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.5px !important;
+    line-height: 1.5 !important;
+    color: #7e7e7e !important;
+}
+
+body p strong {
+    color: #3e3e3e !important;
+}
+
+
+
 .overlay {
     background: url(http://www.freepeople.com/resources/_shared/images/layout/_fp/loading-icon-small.gif) no-repeat center center;
     background-color: rgba(255, 255, 255, .8);
@@ -23,35 +38,52 @@
 }
 
 .topperIMG {
-    height: 98px;
-    width: 572px;
-    margin-left: 14px;
+    height: auto;
+    width: 600px;
 }
 
 .introTXT {
-    margin-left: 14px;
+    margin-left: 11px;
 }
 
-p {
-    font-family: "Lato",Arial,Helvetica,sans-serif;
-    color: #3e3e3e;
-    font-size: 14px !important;
-    line-height: 16px !important;
-    margin-bottom: 5px;
-    padding: 0px;
+a {
+    font-family: Lato, "Avenir Next", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #eb5190;
+}
+
+a:hover {
+    color: #e91f72;
 }
 
 h1 {
-    font-family: "Lato",Arial,Helvetica,sans-serif;
+    font-family: “Hoefler Text”, Baskerville, “Baskerville old face”, Garamond;
     color: #3e3e3e;
-    font-size: 24px !important;
-    font-weight: bold !important;
     margin-bottom: 5px;
     padding: 0px;
+    font-style: italic;
+    font-size: 16px !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #3e3e3e !important;
+}
+
+h2 {
+    font-family: Lato, "Avenir Next", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    color: #3e3e3e;
 }
 
 .textarea {
-    height: 400px;
+    height: 200px;
     width: 572px;
     border-image: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-75.png) !important;
     border-image-slice: 1 !important;
@@ -67,24 +99,25 @@ h1 {
 }
 
 .fpForm {
-    margin-left: 14px;
+    margin-top: 20px;
+    margin-left: 11px;
 }
 
 /* field labels */
 .fpForm .fpLabel {
     text-transform: uppercase;
-    font-family: "Lato",Arial,Helvetica,sans-serif;
-    color: #3e3e3e;
-    font-size: 13px !important;
-    font-weight: bold !important;
-    line-height: 16px !important;
+    font-family: "Lato","Avenir Next",Arial,Helvetica,sans-serif !important;
+    color: #3e3e3e !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
     margin-bottom: 5px;
     padding: 0px;
 }
 
 /* submit button */
 .fpForm .fpSubmit {
-    margin: 20px auto !important;
+    margin: 0 auto 20px auto !important;
     padding: 1px !important;
     width: 125px;
     background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png) !important;
@@ -94,11 +127,11 @@ h1 {
     box-sizing: border-box;
     display: inline-block;
     color: #fff;
-    font-size: .8em;
+    font-size: 11px;
     font-family: "Lato",Arial,Helvetica,sans-serif;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     word-spacing: 2px;
     line-height: 1;
     vertical-align: middle;
