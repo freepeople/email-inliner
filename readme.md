@@ -1,7 +1,6 @@
 # Free People In-Liner
 HTML/CSS: Mike-T-Mitchell (http://github.com/mike-t-mitchell)
-
- -------- JS: CLohr           (http://github.com/clohr) and Mike-T-Mitchell
+JS:       CLohr           (http://github.com/clohr) and Mike-T-Mitchell
            
 ### About
 Many e-mail providers will remove the STYLE tags from the HEAD section of an e-mail. Both GMail and Outlook are notorious for this. As a brand that sends many merchandising e-mails per week, this is a major nuisance, as having to in-line all of our e-mail HTML by hand is time consuming and tedious.
