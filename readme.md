@@ -1,6 +1,6 @@
 # Free People In-Liner
-### Developers
-JS: CLohr (http://github.com/clohr) and Mike-T-Mitchell (http://github.com/mike-t-mitchell)
+### Contributors
+JS: CLohr and Mike-T-Mitchell
 
 HTML/CSS: Mike-T-Mitchell 
 
