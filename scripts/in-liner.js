@@ -96,10 +96,11 @@
             applyStyles();
         }
 
+
         return {
             init: function() {
                 $('.fpSubmitButton').on('click', function() {
-                    $('.overlay').fadeIn();
+                    // $('.overlay').fadeIn();
 
                     var originalCode = $.trim($('#original').val());
                     $('#target').html(originalCode);
@@ -109,7 +110,22 @@
                     var parsed = $.trim($('#target').html());
                     $('#inlined').val(parsed);
 
-                    $('.overlay').fadeOut();
+                    $('#copy_button').clipboard({
+                        path: 'jquery.clipboard.swf',
+                        copy: function() {
+                            $('#copy_button').on('click', function() {
+                                $('#copy_button').val('Copied.');
+                                setTimeout(function(){
+                                    $('#copy_button').val('Copy HTML.');
+                                }, 3000);
+                                //alert("In-lined HTML copied to clipboard.");
+                            });
+                            return $('#inlined').val();
+                        }
+
+                    });
+
+                    // $('.overlay').fadeOut();
                 });
             }
         };

@@ -3,7 +3,7 @@
 
 <head lang="en">
     <title>FreePeople.com -- HTML In-Liner</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
 </head>
 
 <body>
@@ -21,7 +21,7 @@
             <p>1. Paste your original HTML (including the styles within the &lt;head&gt;) in the first field below.<br />
                 2. Click the button below the form.<br />
                 3. Wait a sec while the magic happens.<br />
-                4. Retrieve your newly in-lined HTML from the second field below!<br /></p>
+                4. Click "Copy HTML." to copy your newly in-lined HTML to the clipboard.<br /></p>
 
         </div>
 
@@ -31,11 +31,16 @@
             <textarea class="textarea" name="original" id="original"></textarea><br /><br />
 
             <div class="fpSubmit">
-                <input class="fpSubmitButton" type="button" value="Make magic.">
+                <input class="fpSubmitButton" type="button" value="Make magic." />
             </div>
 
             <p class="fpLabel"><br />In-lined HTML appears here:<br /></p>
             <textarea class="textarea" name="inlined" id="inlined"></textarea>
+
+            <div class="fpCopy">
+                <input id="copy_button" type="button" value="Copy HTML." />
+            </div>
+
 
 
         </form>
@@ -43,6 +48,8 @@
     </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="in-liner.js"></script>
+<script type="text/javascript" src="scripts/jQuery.clipboard.js"></script>
+<script src="scripts/in-liner.js"></script>
+
 </body>
 </html>
