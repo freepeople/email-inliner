@@ -16,3 +16,5 @@ To use this in-liner, paste your HTML (with the STYLE tags still in the HEAD sec
 Within a few seconds, the styles from your head will be added inline to the appropriate HTML elements in the body of your document. 
 
 Just grab the newly in-lined code from the second TEXTAREA and replace your original email HTML with that, and voila! You no longer have to worry about any e-mail providers removing the styles from your HEAD and ruining the look of your e-mail!
+
+Preview: [http://freepeople.github.io/email-inliner](http://freepeople.github.io/email-inliner)
