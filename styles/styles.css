@@ -95,10 +95,17 @@ h2 {
     border-image-repeat: stretch !important;
     border-radius: 0 !important;
     background: #f7f7f7 !important;
+    resize: none;
 }
 
 .textarea:focus {
     background: #fff !important;
+    outline: none;
+    border-image: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png) !important;
+    border-image-slice: 1 !important;
+    border-image-width: 1 !important;
+    border-image-outset: 0 !important;
+    border-image-repeat: stretch !important;
 }
 
 .fpForm {
@@ -161,6 +168,36 @@ h2 {
 }
 
 .fpCopy input#copy_button {
+    box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 1;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0;
+    padding: 12px !important;
+    background-color: #ff008a;
+    -webkit-transition: background-color .15s;
+    transition: background-color .15s;
+    border: solid 1px #fff;
+    width: 100%;
+    outline: none;
+}
+
+.fpForm .fpClear {
+    margin: 18px auto 20px auto !important;
+    padding: 1px !important;
+    width: 125px;
+    background: url(http://static.fpassets.com/resources/_shared/images/backgrounds/border-hotpink.png) !important;
+}
+
+.fpClear input#clear_button {
     box-sizing: border-box;
     display: inline-block;
     color: #fff;

@@ -114,7 +114,9 @@
                         path: 'jquery.clipboard.swf',
                         copy: function() {
                             $('#copy_button').on('click', function() {
+                                // change button text to read 'copied.'
                                 $('#copy_button').val('Copied.');
+                                //change the button text back after 3 seconds
                                 setTimeout(function(){
                                     $('#copy_button').val('Copy HTML.');
                                 }, 3000);
@@ -126,6 +128,12 @@
                     });
 
                     // $('.overlay').fadeOut();
+                });
+
+                // clear both fields
+                $('#clear_button').on('click', function() {
+                    $('#original').val('');
+                    $('#inlined').val('');
                 });
             }
         };
