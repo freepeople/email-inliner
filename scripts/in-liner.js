@@ -1,20 +1,20 @@
 /*global console, jQuery*/
 (function ($) {
     /*
-        Title: HTML In-Liner for E-mail
-        Purpose: read all styles within the <style> tags and directly inline styles via JS
-        Model:
-            selectorStyles = [
-                {
-                    'p.1': [
-                        {'color': 'green'},
-                        {'background': 'gold'}
-                    ]
-                },
-                {
-                    ...
-                }
-            ];
+     Title: HTML In-Liner for E-mail
+     Purpose: read all styles within the <style> tags and directly inline styles via JS
+     Model:
+     selectorStyles = [
+     {
+     'p.1': [
+     {'color': 'green'},
+     {'background': 'gold'}
+     ]
+     },
+     {
+     ...
+     }
+     ];
      */
     'use strict';
     var Inliner = (function () {
@@ -114,7 +114,9 @@
                         path: 'jquery.clipboard.swf',
                         copy: function() {
                             $('#copy_button').on('click', function() {
+                                // change button text to read 'copied.'
                                 $('#copy_button').val('Copied.');
+                                //change the button text back after 3 seconds
                                 setTimeout(function(){
                                     $('#copy_button').val('Copy HTML.');
                                 }, 3000);
@@ -126,6 +128,12 @@
                     });
 
                     // $('.overlay').fadeOut();
+                });
+
+                // clear both fields
+                $('#clear_button').on('click', function() {
+                    $('#original').val('');
+                    $('#inlined').val('');
                 });
             }
         };

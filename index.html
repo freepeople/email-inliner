@@ -7,49 +7,66 @@
 </head>
 
 <body>
-    <div class="container">
-        <div id="target"></div>
-        <div class="overlay"></div>
+<div class="container">
+    <div id="target"></div>
+    <div class="overlay"></div>
 
-        <img class="topperIMG" src="http://static.fpassets.com/content/emails/monthly-assets/2014/04-apr/april_header.jpg" />
+    <img class="topperIMG" src="http://static.fpassets.com/content/emails/monthly-assets/2014/04-apr/april_header.jpg" />
 
-        <div class="introTXT">
-            <h1>HTML In-Liner</h1>
-
-
-                <h2 style="font-style: normal; margin-bottom: -10px !important;">Instructions:</h2>
-            <p>1. Paste your original HTML (including the styles within the &lt;head&gt;) in the first field below.<br />
-                2. Click "Make Magic."<br />
-                3. Wait a sec while the magic happens.<br />
-                4. Click "Copy HTML." to copy your newly in-lined HTML to the clipboard.<br /></p>
-
-        </div>
-
-        <form class="fpForm">
-
-            <p class="fpLabel">Insert initial HTML here:<br /></p>
-            <textarea class="textarea" name="original" id="original"></textarea><br /><br />
-
-            <div class="fpSubmit">
-                <input class="fpSubmitButton" type="button" value="Make magic." />
-            </div>
-
-            <p class="fpLabel"><br />In-lined HTML appears here:<br /></p>
-            <textarea class="textarea" name="inlined" id="inlined"></textarea>
-
-            <div class="fpCopy">
-                <input id="copy_button" type="button" value="Copy HTML." />
-            </div>
+    <div class="introTXT">
+        <h1>HTML In-Liner</h1>
 
 
+        <h2 style="font-style: normal; margin-bottom: -10px !important;">Instructions:</h2>
+        <p>1. Paste your original HTML (including the styles within the &lt;head&gt;) in the first field below.<br />
+            2. Click "Make Magic."<br />
+            3. Wait a sec while the magic happens.<br />
+            4. Click "Copy HTML." to copy your newly in-lined HTML to the clipboard.<br /></p>
 
-        </form>
-
-    <p><a style="text-decoration: none;" href="https://github.com/freepeople/email-inliner">View the Project on Github</a><br /><br /></p>
     </div>
 
+    <form class="fpForm">
+
+        <p class="fpLabel">Insert initial HTML here:<br /></p>
+        <textarea class="textarea" name="original" id="original"></textarea><br /><br />
+
+        <div class="fpSubmit">
+            <input class="fpSubmitButton" type="button" value="Make magic." />
+        </div>
+
+        <p class="fpLabel"><br />In-lined HTML appears here:<br /></p>
+        <textarea class="textarea" name="inlined" id="inlined"></textarea>
+
+        <center><table>
+            <tbody>
+            <tr>
+                <td><div class="fpCopy">
+                    <input id="copy_button" type="button" value="Copy HTML." />
+                </div></td>
+                <td><div class="fpClear">
+                    <input id="clear_button" type="button" value="Clear." />
+                </div></td>
+            </tr>
+            </tbody>
+        </table></center>
+
+        <!-- <div class="fpCopy">
+            <input id="copy_button" type="button" value="Copy HTML." />
+        </div>
+
+        <div class="fpClear">
+            <input id="clear_button" type="button" value="Clear." />
+        </div> -->
+
+
+
+    </form>
+
+    <p><a style="text-decoration: none;" href="https://github.com/freepeople/email-inliner">View this Project on Github</a><br><br></p>
+</div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.clipboard.js"></script>
+<script type="text/javascript" src="scripts/jQuery.clipboard.js"></script>
 <script src="scripts/in-liner.js"></script>
 
 </body>
