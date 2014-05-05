@@ -16,7 +16,7 @@
 
 /* Component: jQuery Clipboard */
 (function ($) {
-  var $clip = null;
+  var $clip = null; 
   var $is_loaded = false;
 
   $.fn.clipboard = function (params) {
