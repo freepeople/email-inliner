@@ -6,9 +6,9 @@ HTML/CSS: Mike-T-Mitchell
 
            
 ### About
-Many e-mail providers will remove the STYLE tags from the HEAD section of an e-mail. Both GMail and Outlook are notorious for this. As a brand that sends many merchandising e-mails per week, this is a major nuisance, as having to in-line all of our e-mail HTML by hand is time consuming and tedious.
+Many e-mail providers will remove the STYLE tags from the HEAD section of an e-mail. Both GMail and Outlook are notorious for this. At Free People we send many merchandising e-mails on a weekly basis, so this is a major nuisance! Having to in-line all of our e-mail HTML by hand is time consuming and tedious, so we decided to do something about the issue.
 
-We shopped around to find an HTML E-mail In-liner that we could use to make life a bit easier when creating these e-mails. Though we found a few good ones, they were all server-side. Feeling adventurous, we decided to build a client-side in-liner as a goof. This is what you see before you.
+We shopped around to find an HTML E-mail In-liner that we could use to make life a bit easier when creating these e-mails. Though we found a few good ones, they were all server-side. Feeling adventurous, we decided to build a client-side in-liner as a goof, and this is what you see before you.
 
 ### Usage
 To use this in-liner, paste your HTML (with the STYLE tags still in the HEAD section) and click "Make Magic." 
